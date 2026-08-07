@@ -1,5 +1,0 @@
-GET /filter?category=Pets HTTP/2
-Host: 0a0a002e0345fccb8119e8c4002700d6.web-security-academy.net
-Cookie: session=...
-User-Agent: Mozilla/5.0
-Accept: text/html
