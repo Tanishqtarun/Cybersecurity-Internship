@@ -1,0 +1,27 @@
+=============================
+ADMINISTRATIVE ACTIVITY
+=============================
+
+Description:
+The following entries show privileged commands executed using sudo by authorized users.
+
+-----------------------------------------------------------------------------
+
+Mar 09 08:56:00 webserver01 sudo: aritra : TTY=pts/0 ; PWD=/home/aritra ; USER=root ; COMMAND=/usr/bin/tail -f /var/log/nginx/access.log
+
+Mar 09 10:40:00 webserver01 sudo: aritra : TTY=pts/0 ; PWD=/home/aritra ; USER=root ; COMMAND=/usr/bin/tail -f /var/log/nginx/access.log
+
+Mar 09 12:11:00 webserver01 sudo: ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/tail -f /var/log/nginx/access.log
+
+Mar 09 14:16:00 webserver01 sudo: ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/df -h
+
+Mar 09 15:04:00 webserver01 sudo: aritra : TTY=pts/0 ; PWD=/home/aritra ; USER=root ; COMMAND=/usr/bin/tail -f /var/log/nginx/access.log
+
+Mar 09 17:35:00 webserver01 sudo: aritra : TTY=pts/0 ; PWD=/home/aritra ; USER=root ; COMMAND=/usr/bin/systemctl restart nginx
+
+Mar 09 20:38:00 webserver01 sudo: deploy : TTY=pts/0 ; PWD=/home/deploy ; USER=root ; COMMAND=/usr/bin/systemctl restart nginx
+
+Mar 09 23:52:00 webserver01 sudo: aritra : TTY=pts/0 ; PWD=/home/aritra ; USER=root ; COMMAND=/usr/bin/systemctl restart nginx
+
+
+
