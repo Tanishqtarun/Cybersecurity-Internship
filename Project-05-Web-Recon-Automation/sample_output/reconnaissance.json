@@ -1,0 +1,129 @@
+{
+  "target": "example.com",
+  "http": {
+    "final_url": "https://example.com/",
+    "status_code": 200,
+    "headers": {
+      "Date": "Fri, 14 Aug 2026 16:52:34 GMT",
+      "Content-Type": "text/html",
+      "Transfer-Encoding": "chunked",
+      "Connection": "keep-alive",
+      "Server": "cloudflare",
+      "last-modified": "Wed, 12 Aug 2026 20:15:57 GMT",
+      "allow": "GET, HEAD",
+      "Age": "40",
+      "cf-cache-status": "HIT",
+      "Content-Encoding": "gzip",
+      "CF-RAY": "a2b178822e14a821-DEL"
+    },
+    "error": null
+  },
+  "dns": {
+    "A": [
+      "104.20.23.154",
+      "172.66.147.243"
+    ],
+    "AAAA": [
+      "2606:4700:10::ac42:93f3",
+      "2606:4700:10::6814:179a"
+    ],
+    "MX": [
+      "0 ."
+    ],
+    "NS": [
+      "elliott.ns.cloudflare.com.",
+      "hera.ns.cloudflare.com."
+    ],
+    "TXT": [
+      "v=spf1 -all",
+      "_k2n1y4vw3qtb4skdx9e7dxt97qrmmq9"
+    ],
+    "CNAME": [],
+    "errors": [
+      "CNAME: The DNS response does not contain an answer to the question: example.com. IN CNAME"
+    ]
+  },
+  "ip_geolocation": {
+    "ip": "104.20.23.154",
+    "city": "San Francisco",
+    "region": "California",
+    "country_name": "United States",
+    "latitude": 37.77493,
+    "longitude": -122.41942,
+    "org": "Cloudflare, Inc.",
+    "asn": "AS13335"
+  },
+  "registration": {
+    "source": "https://rdap.org/domain/example.com",
+    "handle": "2336799_DOMAIN_COM-VRSN",
+    "status": [
+      "client delete prohibited",
+      "client transfer prohibited",
+      "client update prohibited"
+    ],
+    "events": {
+      "registration": "1995-08-14T04:00:00Z",
+      "expiration": "2027-08-13T04:00:00Z",
+      "last changed": "2026-08-14T08:01:43Z",
+      "last update of RDAP database": "2026-08-14T16:52:20Z"
+    },
+    "nameservers": [
+      "ELLIOTT.NS.CLOUDFLARE.COM",
+      "HERA.NS.CLOUDFLARE.COM"
+    ],
+    "error": null
+  },
+  "ssl_tls": {
+    "enabled": true,
+    "error": null,
+    "issuer": {
+      "countryName": "US",
+      "organizationName": "SSL Corporation",
+      "commonName": "Cloudflare TLS Issuing ECC CA 3"
+    },
+    "subject": {
+      "commonName": "example.com"
+    },
+    "not_before": "Jul 29 22:10:08 2026 GMT",
+    "not_after": "Oct 27 22:17:21 2026 GMT",
+    "tls_version": "TLSv1.3",
+    "cipher": [
+      "TLS_AES_256_GCM_SHA384",
+      "TLSv1.3",
+      256
+    ]
+  },
+  "web_files": {
+    "robots_txt": {
+      "status_code": 404,
+      "content": "<!doctype html><html lang=\"en\"><head><title>Example Domain</title><link rel=\"icon\" href=\"data:,\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"><style>body{background:#eee;width:60vw;margin:15vh auto;font-family:system-ui,sans-serif}h1{font-size:1.5em}div{opacity:0.8}a:link,a:visited{color:#348}</style></head><body><div><h1>Example Domain</h1><p>This domain is for use in documentation examples without needing permission. Avoid use in operations.</p><p><a href=\"https://iana.org/domains/example\">Learn more</a></p></div></body></html>\n",
+      "url": "https://example.com/robots.txt",
+      "available": false
+    },
+    "sitemap_xml": {
+      "status_code": 404,
+      "content": "<!doctype html><html lang=\"en\"><head><title>Example Domain</title><link rel=\"icon\" href=\"data:,\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"><style>body{background:#eee;width:60vw;margin:15vh auto;font-family:system-ui,sans-serif}h1{font-size:1.5em}div{opacity:0.8}a:link,a:visited{color:#348}</style></head><body><div><h1>Example Domain</h1><p>This domain is for use in documentation examples without needing permission. Avoid use in operations.</p><p><a href=\"https://iana.org/domains/example\">Learn more</a></p></div></body></html>\n",
+      "url": "https://example.com/sitemap.xml",
+      "available": false
+    }
+  },
+  "security_observations": {
+    "missing_headers": [
+      "CSP",
+      "HSTS",
+      "X-Frame-Options",
+      "X-Content-Type-Options",
+      "Referrer-Policy",
+      "Permissions-Policy"
+    ],
+    "observations": [
+      "Missing security headers: CSP, HSTS, X-Frame-Options, X-Content-Type-Options, Referrer-Policy, Permissions-Policy",
+      "Server header exposed: cloudflare"
+    ]
+  },
+  "metadata": {
+    "target_input": "example.com",
+    "generated_at": "2026-08-14T16:52:33.405405+00:00",
+    "scope": "Passive/public-data reconnaissance only"
+  }
+}
